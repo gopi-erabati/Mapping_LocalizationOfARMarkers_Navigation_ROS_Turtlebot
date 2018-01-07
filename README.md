@@ -46,3 +46,33 @@ The report for the project is added as a doc file, which includes the problem st
 
 `roslaunch Robo_Project alltask.launch`
 
+
+**Simulation**
+
+1. Open an empty world in Gazebo
+
+`roslaunch turtlebot_gazebo turtlebot_world.launch`
+
+2. Build you own world and save the world as sdf file.
+
+3. Opening your own world
+
+`roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/path_to_your_world`
+
+4. Mapping the world
+`roslaunch turtlebot_gazebo gmapping_demo.launch`
+
+5. Navigating by Teleop
+`roslaunch turtlebot_teleop keyboard_teleop.launch`
+
+6. Save the map
+
+`rosrun map_server map_saver -f /tmp/my_map`
+
+7. Start amcl_demo
+
+`roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/path_to_your_map_file`
+
+8. Run the nodes for the task
+
+`roslaunch Robo_Project_Simulation alltask.launch`
