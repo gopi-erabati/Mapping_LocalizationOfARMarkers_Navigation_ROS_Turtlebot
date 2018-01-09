@@ -3,9 +3,9 @@
 **Contents**
 * [Introduction](#Introduction)
 * [Task](#Task)
-* [Strategy](#Strategy for task)
-* [Execution](#How to run the code)
-* [About Repository](#About Repository)
+* [Strategy](#Strategy)
+* [Execution](#Execution)
+* [About Repository](#AboutRepository)
 
 ## Introduction
 
