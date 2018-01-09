@@ -1,12 +1,40 @@
-# Mapping_LocalizationOfARMarkers_Navigation_ROS_Turtlebot
+# Mapping, Localization Of ARMarkers and Navigation of Turtlebot using ROS
+
+**Contents**
+* [Introduction] (#Introduction)
+* [Task] (#Task)
+* [Strategy] (#Strategy for task)
+* [Execution] (#How to run the code)
+* [About Repository] (#About Repository)
+
+## Introduction
 
 This Repository deals with the code for the project on "Mapping , Localizing AR Markers and navigation of Turtlebot using ROS".
 
-The report for the project is added as a doc file, which includes the problem statement, strategy employed, packages used.
+This project is tested with **Ubuntu 14.04 LTS** and **ROS Indigo**. 
 
-**Steps to run the code:**
+Nodes are developed in **Python**.
 
-**Real Time**
+The report for the project is added as a pdf file, which includes the problem statement, strategy employed, packages used and details about the installation.
+
+## Task
+The motto of the project is to gain experience in the implementation of different robotic algorithms using ROS framework.
+1.	The first step of task is to build a map of the environment and navigate to a desired location in the map. 
+2.	Next, we have to sense the location of marker (e.g. AR marker, color markers etc) in the map, where there is pick and place task, and autonomously localise and navigate to the desired marker location. 
+3.	After reaching to the desired marker location, we have to precisely move towards the specified location based on visual servoing. 
+4.	At the desired location, we have a robotic arm which picks an object (e.g a small cube) and places on our turtlebot (called as pick and place task). 
+5.	After, the pick and place task, again the robot needs to find another marker, which specifies the final target location, and autonomously localise and navigate to the desired marker location, which finishes the complete task of the project. 
+
+**(This code deals with points 1, 2 and 5)**
+
+## Strategy
+
+The strategy implmented for the task is shown as a flow chart below:
+![Strategy](ressources/strategy.png)
+
+## Execution
+
+### Real Time
 
 1. Connect to turtlebot from the workstation
 
@@ -49,7 +77,7 @@ The report for the project is added as a doc file, which includes the problem st
 
 
 
-**Simulation**
+### Simulation
 
 1. Open an empty world in Gazebo
 
@@ -78,3 +106,13 @@ The report for the project is added as a doc file, which includes the problem st
 8. Run the nodes for the task
 
 `roslaunch Robo_Project_Simulation alltask.launch`
+
+## About Repository
+
+### Robo_Project
+
+This folder contains the launch files, script files to run the code and map file.
+
+### Robo_Project_Simulation
+
+This folder contains the launch files, script files to run the code and world file and map file for **Gazebo** simulation.
