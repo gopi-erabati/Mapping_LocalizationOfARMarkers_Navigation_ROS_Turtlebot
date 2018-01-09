@@ -31,7 +31,7 @@ The motto of the project is to gain experience in the implementation of differen
 ## Strategy
 
 The strategy implmented for the task is shown as a flow chart below:
-![Strategy](ressources/strategy.jpg)
+![Strategy](resources/strategy.jpg)
 
 ## Execution
 
