@@ -6,7 +6,7 @@
 * [Task](#task)
 * [Strategy](#strategy)
 * [Execution](#execution)
-* [AboutRepository](#Repository)
+* [Repository](#Repository)
 
 ## Introduction
 
@@ -108,7 +108,7 @@ The strategy implmented for the task is shown as a flow chart below:
 
 `roslaunch Robo_Project_Simulation alltask.launch`
 
-## AboutRepository
+## Repository
 
 ### Robo_Project
 
