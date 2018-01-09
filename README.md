@@ -6,6 +6,7 @@
 * [Task](#task)
 * [Strategy](#strategy)
 * [Execution](#execution)
+* [VideoLinks](#videoLinks)
 * [Repository](#repository)
 
 ## Introduction
@@ -110,6 +111,12 @@ The strategy implmented for the task is shown as a flow chart below:
 8. Run the nodes for the task
 
 `roslaunch Robo_Project_Simulation alltask.launch`
+
+## VideoLinks
+
+The video of simulation can be seen here : https://www.youtube.com/watch?v=v1oM5tGOu0M&feature=youtu.be
+
+The video of real time turtlebot can be seen here : https://www.youtube.com/watch?v=AO0xJKQYJgk&feature=youtu.be
 
 ## Repository
 
