@@ -6,7 +6,7 @@
 * [Task](#task)
 * [Strategy](#strategy)
 * [Execution](#execution)
-* [VideoLinks](#videoLinks)
+* [Videos](#videos)
 * [Repository](#repository)
 
 ## Introduction
@@ -112,7 +112,7 @@ The strategy implmented for the task is shown as a flow chart below:
 
 `roslaunch Robo_Project_Simulation alltask.launch`
 
-## VideoLinks
+## Videos
 
 The video of simulation can be seen here : https://www.youtube.com/watch?v=v1oM5tGOu0M&feature=youtu.be
 
