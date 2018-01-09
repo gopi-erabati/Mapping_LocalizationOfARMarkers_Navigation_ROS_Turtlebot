@@ -6,7 +6,7 @@
 * [Task](#task)
 * [Strategy](#strategy)
 * [Execution](#execution)
-* [About Repository](#aboutRepository)
+* [AboutRepository](#aboutRepository)
 
 ## Introduction
 
