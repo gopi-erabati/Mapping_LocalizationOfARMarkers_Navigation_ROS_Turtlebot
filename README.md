@@ -2,11 +2,11 @@
 
 **Contents**
 
-* [Introduction](#Introduction)
-* [Task](#Task)
-* [Strategy](#Strategy)
-* [Execution](#Execution)
-* [About Repository](#AboutRepository)
+* [Introduction](#introduction)
+* [Task](#task)
+* [Strategy](#strategy)
+* [Execution](#execution)
+* [About Repository](#aboutRepository)
 
 ## Introduction
 
