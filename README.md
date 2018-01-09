@@ -122,6 +122,8 @@ The video of simulation can be seen here : https://www.youtube.com/watch?v=v1oM5
 
 The video of real time turtlebot can be seen here : https://www.youtube.com/watch?v=AO0xJKQYJgk&feature=youtu.be
 
+The video of real time turtlebot with intergrating visual servoing task (https://github.com/PamirGhimire/visualServoing_ROSProject) can be sen here : https://www.youtube.com/watch?v=hZTU4JiTiyA&feature=youtu.be
+
 ## Repository
 
 ### Robo_Project
