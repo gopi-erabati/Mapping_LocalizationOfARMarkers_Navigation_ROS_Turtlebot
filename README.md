@@ -37,6 +37,10 @@ The motto of the project is to gain experience in the implementation of differen
 The strategy implmented for the task is shown as a flow chart below:
 ![Strategy](resources/strategy.jpg)
 
+AR marker used :
+![Marker0](resources/MarkerData_0.png)
+![Marker1](resources/MarkerData_1.png)
+
 ## Execution
 
 ### Real Time
