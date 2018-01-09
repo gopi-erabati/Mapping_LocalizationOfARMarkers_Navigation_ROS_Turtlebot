@@ -108,7 +108,7 @@ The strategy implmented for the task is shown as a flow chart below:
 
 `roslaunch Robo_Project_Simulation alltask.launch`
 
-## About Repository
+## AboutRepository
 
 ### Robo_Project
 
